@@ -2,7 +2,7 @@ import {Component, Input, OnInit, OnChanges} from '@angular/core';
 
 
 @Component({
-  selector: 'test-component',
+  selector: 'tc1',
   template: `
     NGX upgrade Component <testng1></testng1>
     <hr>

@@ -2,9 +2,9 @@ export const demoAppComponent = {
   selector: 'demoApp',
   template: `NG1 <testng1></testng1>
              <hr>
-             <test-component [name]="$ctrl.name"></test-component>
+             <tc1 [name]="$ctrl.name"></tc1>
              <hr>
-             <test2-component [name]="$ctrl.name"></test2-component>`,
+             <tc2 [name]="$ctrl.name"></tc2>`,
   controller: class TestComponent {
     name = 'ngUpgradeLite';
   },

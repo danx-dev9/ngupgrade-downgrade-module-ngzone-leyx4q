@@ -3,7 +3,7 @@ import {Component, Input, OnInit, OnChanges} from '@angular/core';
 
 
 @Component({
-  selector: 'test2-component',
+  selector: 'tc2',
   template: `
     <versionStamp></versionStamp>
     Hello2, {{ name }}!
